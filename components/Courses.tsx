@@ -1,67 +1,4 @@
-"use client"
-
-// import { SimpleGrid,Card,CardBody,CardHeader,CardFooter,Button,Heading,Text } from "@chakra-ui/react"
-
-
-// export default function Courses(){
-//     return(
-//         <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr)) 'background= 'linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)'background-size='400% 400%'
-//         animation= 'gradient 15s ease infinite'
-//         height= '100vh'>
-//   <Card margin="15" >
-//     <CardHeader  fontFamily="Roboto" backgroundColor="black" color="white" borderBottomColor="black">
-//       <Heading fontFamily="Roboto"size='md'> Artifical Intelligence</Heading>
-//     </CardHeader>
-//     <CardBody>
-//       <Text fontFamily="poppins">A ONE YEAR AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.
-// GETTING PAKISTAN READY FOR THE NEW ERA OF COMPUTING ENABLED BY THE RISE OF AI.</Text>
-//     </CardBody>
-//     <CardFooter>
-//       <Button backgroundColor="black" color="white">View here</Button>
-//     </CardFooter>
-//   </Card>
-//   <Card margin="15">
-//     <CardHeader backgroundColor="black" color="white" borderBottomColor="black">
-//       <Heading fontFamily="Roboto" size='md'> Cloud Native and Mobile Web </Heading>
-//     </CardHeader>
-//     <CardBody>
-//       <Text fontFamily="poppins">
-// A ONE YEAR CLOUD COMPUTING PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.
-// GETTING PAKISTAN READY FOR THE NEW ERA OF MICROSERVICES AND MULTI-CLOUD NATIVE COMPUTING.</Text>
-//     </CardBody>
-//     <CardFooter>
-//       <Button backgroundColor="black" color="white">View here</Button>
-//     </CardFooter>
-//   </Card>
-//   <Card margin="17">
-//     <CardHeader fontFamily="Roboto" backgroundColor="black" color="white" borderBottomColor="black">
-//       <Heading fontFamily="Roboto" size='md'> BLOCKCHAIN</Heading>
-//     </CardHeader>
-//     <CardBody>
-//       <Text fontFamily="poppins">A ONE YEAR BLOCKCHAIN PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF BLOCKCHAIN, FINTECH AND SMART CONTRACTS
-// </Text>
-//     </CardBody>
-//     <CardFooter>
-//       <Button backgroundColor="black" color="white">View here</Button>
-//     </CardFooter>
-//   </Card>
-//   <Card margin="17">
-//     <CardHeader fontFamily="Roboto" backgroundColor="black" color="white" borderBottomColor="black">
-//       <Heading fontFamily="Roboto" size='md'>Internet of Things</Heading>
-//     </CardHeader>
-//     <CardBody>
-//       <Text fontFamily="poppins">A FIFTEEN MONTHS IOT AND AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF INTERNET OF THINGS AND AI
-
-// </Text>
-//     </CardBody>
-//     <CardFooter>
-//       <Button backgroundColor="black" color="white">View here</Button>
-//     </CardFooter>
-//   </Card>
-// </SimpleGrid>
-//     )
-// }
-
+'use client'
 import { ReactNode } from 'react';
 import {
   Box,
@@ -156,7 +93,10 @@ export default function WithSpeechBubbles() {
     <Box bg={useColorModeValue('gray.100', 'gray.700')}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Avaliable Programs</Heading>
+          
+          <h2 className="text-4xl font-extrabold text-black text-center m-4 p-4 md:text-2xl">
+          Avaliable Programs
+            </h2>
  
         </Stack>
         <Stack
@@ -165,7 +105,7 @@ export default function WithSpeechBubbles() {
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>A.I</TestimonialHeading>
-              <TestimonialText>
+              <TestimonialText >
               A ONE YEAR AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.
  GETTING PAKISTAN READY FOR THE NEW ERA OF COMPUTING ENABLED BY THE RISE OF AI
               </TestimonialText>
@@ -181,7 +121,7 @@ export default function WithSpeechBubbles() {
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading> Cloud Native  Web</TestimonialHeading>
-              <TestimonialText>
+              <TestimonialText >
                A ONE YEAR CLOUD COMPUTING PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.
  GETTING PAKISTAN READY FOR THE NEW ERA OF MICROSERVICES AND MULTI-CLOUD NATIVE COMPUTING.
               </TestimonialText>
@@ -196,8 +136,8 @@ export default function WithSpeechBubbles() {
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>BLOCKCHAIN</TestimonialHeading>
-              <TestimonialText>
+              <TestimonialHeading>Blockchain</TestimonialHeading>
+              <TestimonialText >
               A ONE YEAR BLOCKCHAIN PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF BLOCKCHAIN, FINTECH AND SMART CONTRACTS
               </TestimonialText>
             </TestimonialContent>
@@ -212,7 +152,7 @@ export default function WithSpeechBubbles() {
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>Internet of Things</TestimonialHeading>
-              <TestimonialText>
+              <TestimonialText >
               A FIFTEEN MONTHS IOT AND AI PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF INTERNET OF THINGS AND AI
               </TestimonialText>
             </TestimonialContent>

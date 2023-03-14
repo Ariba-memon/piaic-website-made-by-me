@@ -10,3 +10,24 @@
         background-color: lightblue;
     }
 }
+
+@layer components {
+    header {
+        @apply bg-black py-5 px-6 text-white;
+    }
+    ul li {
+        @apply inline-block mx-5;
+    }
+    .btn {
+        @apply bg-blue-900 text-white py-2 px-5 rounded-full;
+    }
+    .container {
+        @apply max-w-none w-auto p-12 justify-center text-center;
+    }
+    h1 {
+        @apply text-4xl leading-tight;
+    }
+    p {
+        @apply mt-4;
+    }
+}

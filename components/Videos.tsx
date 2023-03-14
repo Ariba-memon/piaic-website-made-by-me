@@ -1,86 +1,48 @@
-"use client"
-import { Box,Heading,Text,Image } from '@chakra-ui/react';
-
+'use client'
 export default function Videos(){
-    return(
-      <div  className="md:max-xl:flex">
-     <><Heading textAlign='center' backgroundColor="gray.800" fontFamily="Roboto" color='white' alignItems="center" padding='10' margin="0 auto">Videos</Heading><Box
-        as='iframe'
-        src='https://www.youtube.com/embed/m4g0zd4E_bo'
-        width="417"
-        height="480"
-        text-align='center' 
-        alignContent="center"
-        margin="50"
-        padding='10'
-     
-   
-        sx={{
-          aspectRatio: '16/9'
-        }} />
-        
-        <Box
-        as='iframe'
-      
-        src='https://www.youtube.com/embed/TWpX1SVjrtU?list=PL4lZMpZtayiETLN0rpE9JH155EEShtt3m'
-        width="417"
-        height="480"
-        alignContent="center"
-        margin="50"
-        padding='10'
-        sx={{
-          aspectRatio: '16/9'
-        }} />
-        <Heading textAlign='center' backgroundColor="gray.800" fontFamily="Roboto" color='white' alignItems="center" padding='10' margin="0 auto">Sucess Stories</Heading><Box
-        as='iframe'
-        src='https://www.youtube.com/embed/kMRVJAsMjBg'
-        width="417"
-        height="480"
-     
-        alignContent="center"
-        margin="50"
-      
-        sx={{
-          aspectRatio: '16/9'
-        }} />
-        <Box
-        as='iframe'
-       
-        src='https://www.youtube.com/embed/TS6WdZebsNU'
-        width="417"
-        height="480"
-       
-        alignContent="center"
-        margin="50"
-       
-        sx={{
-          aspectRatio: '16/9'
-        }} />
-
-        
-        <Heading textAlign='center' backgroundColor="gray.800" fontFamily="Roboto" color='white'  alignItems="center" padding='10' margin="10 auto">Strategic Partners</Heading>
-        <Image 
-        alignItems='center'
-        margin='19'
-        float= 'left'
-        width= '33.33%'
-        padding= '5px'
-        src='https://www.piaic.org/static/media/panacloudfootericon.130c4779.png'
-       
-        />
-          <Image 
-        alignItems='center'
-        margin='19'
-        float= 'left'
-        width= '33.33%'
-        padding= '5px'
-        src='https://iconape.com/wp-content/files/pd/194086/svg/194086.svg'
-       
-        />
-       
-
-        </>
-    </div>
-    )
-}
+  return(
+<div className="grid grid-cols-4 items-center gap-4 m-3">
+  <div className="mb-4">
+    <img
+      src="https://pbs.twimg.com/profile_images/1478630664190795778/xuBHOC65_400x400.jpg"
+      className="h-auto w-full rounded-full shadow-md shadow-black/20 dark:shadow-white/20"
+      alt="Hollywood Sign on The Hill" />
+      <br />
+       <figcaption className="text-center text-neutral-600 dark:text-neutral-400">
+      Sir Zia Khan
+    </figcaption>
+  </div>
+  <div className="mb-4">
+    <img
+      src="https://media.licdn.com/dms/image/C4D03AQFuhdYPmkC0sA/profile-displayphoto-shrink_800_800/0/1562700934047?e=2147483647&v=beta&t=Bwruo2OggLTrCos4804rppZq0UbhmXmPlr5LxDobq74"
+      className="h-auto w-full rounded-full shadow-md shadow-black/20 dark:shadow-white/20"
+      alt="Five Lands National Park" />
+      <br />
+       <figcaption className="text-center text-neutral-600 dark:text-neutral-400">
+      Miss Hira Khan
+    </figcaption>
+  </div>
+  <div className="mb-4">
+    <img
+      src="https://avatars.githubusercontent.com/u/62209503?v=4"
+      className="h-auto w-full rounded-full shadow-md shadow-black/20 dark:shadow-white/20"
+      alt="Los Angeles Skyscrapers" />
+         <br />
+       <figcaption className="text-center text-neutral-600 dark:text-neutral-400">
+     Sir Adil Altaf
+    </figcaption>
+  </div>
+  <div className="mb-4">
+    <img
+      src="https://media.licdn.com/dms/image/C4D03AQE1Hzv61ccMVw/profile-displayphoto-shrink_800_800/0/1556048207367?e=2147483647&v=beta&t=KjDz0Y-aELrRyRuqh_mj8oCSwUimyoK66DqheBx8aMk"
+      className="h-auto w-full rounded-full shadow-md shadow-black/20 dark:shadow-white/20"
+      alt="Los Angeles Skyscrapers" />
+            <br />
+       <figcaption className="text-center text-neutral-600 dark:text-neutral-400">
+     Sir Daniyal Nagori
+    </figcaption>
+  </div>
+</div>
+  )
+  }
 
